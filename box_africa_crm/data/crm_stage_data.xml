@@ -3,86 +3,71 @@
 
     <!-- Pôle Services digitaux & IT -->
     <record id="crm_stage_services_new" model="crm.stage">
-        <field name="name">Nouveau</field>
+        <field name="name">Services IT - Nouveau</field>
         <field name="sequence">1</field>
-        <field name="team_id" ref="crm_team_services_it"/>
     </record>
     <record id="crm_stage_services_qualification" model="crm.stage">
-        <field name="name">Qualification</field>
+        <field name="name">Services IT - Qualification</field>
         <field name="sequence">2</field>
-        <field name="team_id" ref="crm_team_services_it"/>
     </record>
     <record id="crm_stage_services_proposition" model="crm.stage">
-        <field name="name">Proposition technique &amp; devis</field>
+        <field name="name">Services IT - Proposition technique &amp; devis</field>
         <field name="sequence">3</field>
-        <field name="team_id" ref="crm_team_services_it"/>
     </record>
     <record id="crm_stage_services_negociation" model="crm.stage">
-        <field name="name">Négociation</field>
+        <field name="name">Services IT - Négociation</field>
         <field name="sequence">4</field>
-        <field name="team_id" ref="crm_team_services_it"/>
     </record>
     <record id="crm_stage_services_gagne" model="crm.stage">
-        <field name="name">Gagné</field>
+        <field name="name">Services IT - Gagné</field>
         <field name="sequence">5</field>
         <field name="is_won">True</field>
-        <field name="team_id" ref="crm_team_services_it"/>
     </record>
 
     <!-- Pôle Formations IT -->
     <record id="crm_stage_formation_new" model="crm.stage">
-        <field name="name">Nouveau</field>
-        <field name="sequence">1</field>
-        <field name="team_id" ref="crm_team_formation"/>
+        <field name="name">Formation - Nouveau</field>
+        <field name="sequence">6</field>
     </record>
     <record id="crm_stage_formation_devis" model="crm.stage">
-        <field name="name">Devis envoyé</field>
-        <field name="sequence">2</field>
-        <field name="team_id" ref="crm_team_formation"/>
+        <field name="name">Formation - Devis envoyé</field>
+        <field name="sequence">7</field>
     </record>
     <record id="crm_stage_formation_planifiee" model="crm.stage">
-        <field name="name">Session planifiée</field>
-        <field name="sequence">3</field>
-        <field name="team_id" ref="crm_team_formation"/>
+        <field name="name">Formation - Session planifiée</field>
+        <field name="sequence">8</field>
     </record>
     <record id="crm_stage_formation_confirmee" model="crm.stage">
-        <field name="name">Confirmée</field>
-        <field name="sequence">4</field>
-        <field name="team_id" ref="crm_team_formation"/>
+        <field name="name">Formation - Confirmée</field>
+        <field name="sequence">9</field>
     </record>
     <record id="crm_stage_formation_realisee" model="crm.stage">
-        <field name="name">Réalisée</field>
-        <field name="sequence">5</field>
+        <field name="name">Formation - Réalisée</field>
+        <field name="sequence">10</field>
         <field name="is_won">True</field>
-        <field name="team_id" ref="crm_team_formation"/>
     </record>
 
     <!-- Pôle Vente d'équipements -->
     <record id="crm_stage_equipement_new" model="crm.stage">
-        <field name="name">Nouveau</field>
-        <field name="sequence">1</field>
-        <field name="team_id" ref="crm_team_equipement"/>
+        <field name="name">Équipements - Nouveau</field>
+        <field name="sequence">11</field>
     </record>
     <record id="crm_stage_equipement_devis" model="crm.stage">
-        <field name="name">Devis</field>
-        <field name="sequence">2</field>
-        <field name="team_id" ref="crm_team_equipement"/>
+        <field name="name">Équipements - Devis</field>
+        <field name="sequence">12</field>
     </record>
     <record id="crm_stage_equipement_commande" model="crm.stage">
-        <field name="name">Commande confirmée</field>
-        <field name="sequence">3</field>
-        <field name="team_id" ref="crm_team_equipement"/>
+        <field name="name">Équipements - Commande confirmée</field>
+        <field name="sequence">13</field>
     </record>
     <record id="crm_stage_equipement_livraison" model="crm.stage">
-        <field name="name">Livraison &amp; installation</field>
-        <field name="sequence">4</field>
-        <field name="team_id" ref="crm_team_equipement"/>
+        <field name="name">Équipements - Livraison &amp; installation</field>
+        <field name="sequence">14</field>
     </record>
     <record id="crm_stage_equipement_cloture" model="crm.stage">
-        <field name="name">Clôturé</field>
-        <field name="sequence">5</field>
+        <field name="name">Équipements - Clôturé</field>
+        <field name="sequence">15</field>
         <field name="is_won">True</field>
-        <field name="team_id" ref="crm_team_equipement"/>
     </record>
 
 </odoo>
