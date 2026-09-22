@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="crm_lead_view_form_box_africa" model="ir.ui.view">
+        <field name="name">crm.lead.form.box.africa</field>
+        <field name="model">crm.lead</field>
+        <field name="inherit_id" ref="crm.crm_lead_view_form"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//field[@name='team_id']" position="after">
+                <field name="activity_pole"/>
+                <field name="region"/>
+                <field name="client_type"/>
+            </xpath>
+
+            <xpath expr="//notebook" position="inside">
+                <page string="Box Africa" name="box_africa">
+                    <group>
+                        <group string="Services digitaux &amp; IT"
+                               invisible="activity_pole != 'services_it'">
+                            <field name="service_type"/>
+                            <field name="service_urgency"/>
+                        </group>
+                        <group string="Formations IT"
+                               invisible="activity_pole != 'formation'">
+                            <field name="formation_type"/>
+                            <field name="formation_modality"/>
+                            <field name="formation_public"/>
+                            <field name="formation_participants"/>
+                            <field name="formation_date"/>
+                        </group>
+                        <group string="Vente d'équipements"
+                               invisible="activity_pole != 'equipement'">
+                            <field name="equipment_category"/>
+                            <field name="equipment_quantity"/>
+                            <field name="equipment_installation"/>
+                            <field name="equipment_maintenance"/>
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+
+        </field>
+    </record>
+
+</odoo>

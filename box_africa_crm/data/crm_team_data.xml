@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="0">
+
+    <record id="crm_team_services_it" model="crm.team">
+        <field name="name">Services digitaux &amp; IT</field>
+        <field name="use_opportunities">True</field>
+    </record>
+
+    <record id="crm_team_formation" model="crm.team">
+        <field name="name">Formations IT</field>
+        <field name="use_opportunities">True</field>
+    </record>
+
+    <record id="crm_team_equipement" model="crm.team">
+        <field name="name">Vente d'équipements</field>
+        <field name="use_opportunities">True</field>
+    </record>
+
+</odoo>
