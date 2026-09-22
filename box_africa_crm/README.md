@@ -6,11 +6,8 @@ Personnalisation du CRM Odoo pour les trois pôles d'activité de Box Africa.
 
 - **3 équipes commerciales** (`crm.team`) : Services digitaux & IT,
   Formations IT, Vente d'équipements.
-- **15 étapes de pipeline** (`crm.stage`, préfixées par pôle : "Services IT -
-  ...", "Formation - ...", "Équipements - ...") adaptées au cycle de vente
-  de chaque pôle. *Note : `crm.stage` n'a pas de champ de restriction par
-  équipe dans cette version d'Odoo, donc les étapes sont partagées entre
-  les 3 équipes (d'où le préfixe pour s'y retrouver).*
+- **Pipelines dédiés** (`crm.stage`, 5 étapes par équipe) adaptés au cycle
+  de vente de chaque pôle.
 - **Champs sur les leads/opportunités** (`crm.lead`) :
   - Communs : `activity_pole` (pôle d'activité), `region` (région du
     Burkina Faso), `client_type`.
