@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="team_ventes_boxafrica" model="crm.team">
+        <field name="name">Ventes Box Africa</field>
+        <field name="user_id" ref="user_resp_ventes"/>
+        <field name="member_ids" eval="[(6, 0, [ref('user_commercial1'), ref('user_commercial2')])]"/>
+    </record>
+
+</odoo>

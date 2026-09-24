@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="stage_nouveau" model="crm.stage">
+        <field name="name">Nouveau</field>
+        <field name="sequence">1</field>
+        <field name="team_ids" eval="[(6, 0, [ref('team_ventes_boxafrica')])]"/>
+    </record>
+
+    <record id="stage_qualifie" model="crm.stage">
+        <field name="name">Qualifié</field>
+        <field name="sequence">2</field>
+        <field name="team_ids" eval="[(6, 0, [ref('team_ventes_boxafrica')])]"/>
+    </record>
+
+    <record id="stage_proposition" model="crm.stage">
+        <field name="name">Proposition</field>
+        <field name="sequence">3</field>
+        <field name="team_ids" eval="[(6, 0, [ref('team_ventes_boxafrica')])]"/>
+    </record>
+
+    <record id="stage_negociation" model="crm.stage">
+        <field name="name">Négociation</field>
+        <field name="sequence">4</field>
+        <field name="team_ids" eval="[(6, 0, [ref('team_ventes_boxafrica')])]"/>
+    </record>
+
+    <record id="stage_gagne" model="crm.stage">
+        <field name="name">Gagné</field>
+        <field name="sequence">5</field>
+        <field name="team_ids" eval="[(6, 0, [ref('team_ventes_boxafrica')])]"/>
+    </record>
+
+</odoo>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="product_formation_cyber" model="product.template">
+        <field name="name">Formation cybersécurité (5 jours)</field>
+        <field name="type">service</field>
+        <field name="list_price">2500000</field>
+        <field name="invoice_policy">order</field>
+    </record>
+
+</odoo>
